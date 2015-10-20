@@ -1,0 +1,7 @@
+baseurl = "http://agriturismoreginadifiori.github.io"
+title = "Agriturismo Regina Di Fiori"
+
+[taxonomies]
+tag = "tags"
+group = "groups"
+menu = "menu"
