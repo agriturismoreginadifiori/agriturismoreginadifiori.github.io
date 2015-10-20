@@ -4,8 +4,8 @@ build:
     - arjen/hugo-build
 deploy:
   steps:
-    - lukevivier/gh-pages@0.2.1:
-        token: $GIT_TOKEN
+    - leipert/git-push@0.7.6:
+        gh_oauth: $GIT_TOKEN
         branch: master
         basedir: public
 
